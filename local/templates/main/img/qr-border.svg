@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="178px" height="178px" viewBox="0 0 178 178" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="MOB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="3,6" stroke-linecap="round" stroke-linejoin="round">
+        <g id="DONATE_tab" transform="translate(-38.000000, -255.000000)" fill="#FFFFFF" stroke="#E1E1E1">
+            <path d="M44,256 L210,256 C212.761424,256 215,258.238576 215,261 L215,427 C215,429.761424 212.761424,432 210,432 L44,432 C41.2385763,432 39,429.761424 39,427 L39,261 C39,258.238576 41.2385763,256 44,256 Z" id="Rectangle-Copy"></path>
+        </g>
+    </g>
+</svg>

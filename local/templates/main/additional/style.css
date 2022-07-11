@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .info__attention-text {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .info__attention {
+        padding: 0 5% 20px 5%;
+    }
+}
+
+

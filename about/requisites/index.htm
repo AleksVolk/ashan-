@@ -1,0 +1,743 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Благотворительный фонд "АШАН"</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="Ашан, благотворительность, фонд">
+<meta name="description" content="Некоммерческая организация Благотворительный фонд «Поколение АШАН»">
+<script type="text/javascript" data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {'CACHE_MODE':'HTMLCACHE','storageBlocks':[],'dynamicBlocks':[],'AUTO_UPDATE':true,'AUTO_UPDATE_TTL':'0'};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}else{w.frameRequestFail = f;}return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();})(window, document);</script>
+
+
+<link href="/bitrix/cache/css/s1/main/kernel_main/kernel_main_v1.css?165520425028822" type="text/css" rel="stylesheet">
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/'});</script>
+
+
+<script type="text/javascript" src="/bitrix/cache/js/s1/main/kernel_main/kernel_main_v1.js?1655204250316269"></script>
+<script type="text/javascript" src="/bitrix/cache/js/s1/main/kernel_main_polyfill_promise/kernel_main_polyfill_promise_v1.js?16552042502506"></script>
+<script type="text/javascript" src="/bitrix/js/main/loadext/loadext.min.js?1557755585810"></script>
+<script type="text/javascript" src="/bitrix/js/main/loadext/extension.min.js?15577555851304"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_db.min.js?155775558510247"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?155775558511334"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/json/json2.min.js','/bitrix/js/main/core/core_ls.js','/bitrix/js/main/core/core_fx.js','/bitrix/js/main/session.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/date/main.date.js','/bitrix/js/main/core/core_popup.js','/bitrix/js/main/core/core_date.js','/bitrix/js/main/utils.js','/bitrix/js/main/polyfill/promise/js/promise.js']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/core/css/core_popup.css','/bitrix/js/main/core/css/core_date.css']); </script>
+
+
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "cce6a3800fea8c99b7b31e424f9e3f10"]); _ba.push(["host", "pokolenie-auchan.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+        <link href="/local/templates/main/css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="/local/templates/main/css/main.css" type="text/css" rel="stylesheet">
+    <link href="/local/templates/main/additional/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/dist/css/lightgallery.min.css" integrity="sha256-oPZ2OUkKul2aJQeDwKoO1p+DpvFR+w17n7YXydvFRWU=" crossorigin="anonymous">
+    </head>
+<body>
+<div class="success-message">
+    <div class="success-message__mask"></div>
+    <div class="success-message__wrapper">
+        <div class="success-message__content">
+            <div class="success-message__close-button"></div>
+            <div class="success-message__icon"></div>
+            <div class="success-message__text title-second">Ваше сообщение<br> успешно отправлено!</div>
+        </div>
+    </div>
+</div>
+
+<section class="site-map">
+    <div class="site-map__wrapper">
+        <div class="site-map__content">
+            <div class="site-map__close-button"></div>
+            <div class="site-map__title title-first">Карта сайта</div>
+            <ul class="site-map__columns">
+                <li class="site-map__column">
+                    <a href="/about/" class="site-map__column-title link title-second"><span>О фонде</span></a>
+                    <a href="/about/control-system/" class="site-map__column-point text link"><span>Система управления деятельностью фонда</span></a>
+                    <a href="/about/programs/" class="site-map__column-point text link"><span>Программы фонда</span></a>
+                    <a href="/about/requisites/" class="site-map__column-point text link"><span>Реквизиты фонда</span></a>
+                    <a href="/about/statements/" class="site-map__column-point text link"><span>Отчет о деятельности фонда</span></a>
+                </li>
+                <li class="site-map__column">
+                    <a href="/donate/" class="site-map__column-title link title-second"><span>Сделать пожертвование</span></a>
+                </li>
+                <li class="site-map__column">
+                    <a href="/need-help/" class="site-map__column-title link title-second"><span>Получить помощь</span></a>
+                    <a href="/projects/" class="site-map__column-title link title-second"><span>Наши проекты</span></a>
+                    <a href="/contacts/" class="site-map__column-title link title-second"><span>Контакты</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="mobile-menu">
+    <div class="mobile-menu__mask"></div>
+    <div class="mobile-menu__wrapper">
+        <div class="mobile-menu__content">
+            <div class="mobile-menu__close-button"></div>
+            <a href="/index/" class="mobile-menu__logo">
+                <img src="/img/logo.svg" width="145" height="64">
+            </a>
+            <div class="mobile-menu__buttons-holder">
+                <a href="/need-help/" class="mobile-menu__button mobile-menu__button--need-help button button--white">
+                    <span class="button__icon">
+
+                    </span>
+                    <span class="header__button-text button__text title-fourth">Нужна помощь</span>
+                </a>
+                <a href="/donate/" class="mobile-menu__button mobile-menu__button--want-help button button--green">
+                    <span class="button__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                            <path class="ml" fill="#ffffff" fill-rule="evenodd" d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2C6.485 2 2 6.485 2 12s4.485 10 10 10zm0-22c6.627 0 12 5.373 12 12s-5.373 12-12 12C5.372 24 0 18.627 0 12S5.372 0 12 0zm1.84 10.93c.711 0 1.29-.58 1.29-1.291 0-.712-.579-1.291-1.29-1.291h-2.634v2.581h2.633zm0-4.669a3.381 3.381 0 0 1 3.377 3.378 3.381 3.381 0 0 1-3.378 3.377h-2.633v.884h1.837a1.043 1.043 0 1 1 0 2.087h-1.837v1.896a1.044 1.044 0 0 1-2.087 0v-1.896H7.573a1.043 1.043 0 1 1 0-2.087H9.12v-.884H7.573a1.043 1.043 0 1 1 0-2.087H9.12V7.304c0-.576.467-1.043 1.043-1.043h3.677z"></path>
+                        </svg>
+                    </span>
+                    <span class="button__text title-fourth">Хочу помочь</span>
+                </a>
+            </div>
+            <ul class="mobile-menu__navigation">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__nav-link mobile-menu__nav-link--current title-fourth" href="/about/">О
+                        фонде</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__nav-link  title-fourth" href="/projects/">Наши проекты</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__nav-link  title-fourth" href="/contacts/">Контакты</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__nav-link link-search title-fourth" href="">Поиск</a>
+                </li>
+            </ul>
+
+            <footer class="mobile-menu__footer footer footer--mobile-menu">
+                <div class="footer__wrapper">
+                    <div class="footer__content">
+
+
+                        <div class="footer__social social social--mobile-menu">
+                            <ul class="social__list">
+                                <!--                                    <li class="social__item social__item--vk">-->
+                                <!--                                        <a href=""></a>-->
+                                <!--                                    </li>-->
+                                <!--                                    <li class="social__item social__item--ok">-->
+                                <!--                                        <a href=""></a>-->
+                                <!--                                    </li>-->
+                                <!--                                    <li class="social__item social__item--yt">-->
+                                <!--                                        <a href=""></a>-->
+                                <!--                                    </li>-->
+                                <!--                                    <li class="social__item social__item--fb">-->
+                                <!--                                        <a href=""></a>-->
+                                <!--                                    </li>-->
+                                <!--                                    <li class="social__item social__item--tw">-->
+                                <!--                                        <a href=""></a>-->
+                                <!--                                    </li>-->
+<!--                                <li class="social__item social__item--im">-->
+<!--                                    <a href=""></a>-->
+<!--                                </li>-->
+                            </ul>
+                        </div>
+                        <div class="footer__bottom-content">
+                            <div class="footer__bottom-left">
+                                <div class="footer__copyright text">Поколение АШАН © 2022</div>
+                            </div>
+                            <div class="footer__bottom-center">
+                                <ul class="footer__payment-system">
+                                    <li class="footer__payment-item footer__payment-item--visa">
+                                        <a href=""></a>
+                                    </li>
+
+                                    <li class="footer__payment-item footer__payment-item--mastercard">
+                                        <a href=""></a>
+                                    </li>
+
+                                    <li class="footer__payment-item footer__payment-item--mir">
+                                        <a href=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__bottom-right">
+                                <div class="footer__map-link text">
+                                    <a href="">Карта сайта</a>
+                                </div>
+                                <a href="http://peachdesign.ru/" class="footer__author text">
+                                    <span class="footer__author-made">Сделано в</span>
+                                    <span class="footer__author-logo"></span>
+                                </a>
+                                <div class="footer__political text">
+                                    <a href="/ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ООО «АШАН»-АТАК.docx" download="">Политика
+                                        конфиденциальности</a>
+                                </div>
+                            </div>
+                            <div class="footer__google">
+                                <p class="text">
+                                    Этот сайт защищен reCAPTCHA и применяются <a href="">Политика конфиденциальности</a>
+                                    и <a href="">Условия обслуживания Google</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</section>
+
+<section class="search">
+    <div class="search__mask"></div>
+    <div class="search__wrapper">
+        <div class="search__content">
+            <div class="search__close-button"></div>
+            <div class="search__title-container">
+                <h1 class="search__title title-first">Поиск по сайту</h1>
+            </div>
+            <form id="js-search-form" method="" action="" class="search__form">
+                <div class="search__input-container">
+                    <label class="search__label" for="search"></label>
+                    <input id="search" class="search__input text" placeholder="Введите Ваш запрос" required="">
+                    <button type="submit" class="search__link-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                            <path fill="#000000" fill-rule="nonzero" d="M20.529 20.529a1 1 0 0 1-1.414.005L14.86 16.31a6.818 6.818 0 1 1 1.42-1.409l4.244 4.214a1 1 0 0 1 .005 1.414zm-9.71-4.893a4.818 4.818 0 1 0 0-9.636 4.818 4.818 0 0 0 0 9.636z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="search__button-reset-holder">
+                    <button type="reset" id="search-reset" class="search__reset-button text text--footernote search__button-reset-holder--hidden">
+                        Cбросить
+                    </button>
+                </div>
+            </form>
+            <div class="js-search-result">
+                <div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="wrapper">
+    <header class="header">
+        <div class="header__wrapper width-wrapper">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="/">
+                        <img src="/img/logo.svg" width="145" height="64">
+                    </a>
+                </div>
+
+                <nav class="header__navigation">
+
+                    <ul class="header__navigation-list">
+                        <!--модификатор для текущей активной страницы header__nav-link--current -->
+
+                        <li>
+                            <a class="header__nav-link js-header__nav-link--dropdown title-fourth header__nav-link--current" href="/">
+                                О фонде
+                                <span class="header__nav-icon-dropdown">
+                      <svg width="14" height="8" viewbox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1.75L6.625 6.25L12.25 1.75" stroke="#008F4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                    </span>
+                            </a>
+                            <ul class="header__nav-dropdown js-header__nav-dropdown">
+                                <li>
+                                    <a href="/about/requisites/" class="header__nav-dropdown-link header__nav-dropdown-link--current">Реквизиты</a>
+                                </li>
+                                <li>
+                                    <a href="/about/statements/" class="header__nav-dropdown-link ">Отчеты</a>
+                                </li>
+                                <li>
+                                    <a href="/about/control-system/" class="header__nav-dropdown-link ">Система управления</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a class="header__nav-link  title-fourth" href="/programs/">Программы</a></li>
+                        <li>
+                            <a class="header__nav-link  title-fourth" href="/projects/">Проекты</a></li>
+                        <li>
+                            <a class="header__nav-link  title-fourth" href="/contacts/">Контакты</a></li>
+                        <li><a class="header__nav-link link-search title-fourth" href="">Поиск</a></li>
+                    </ul>
+                </nav>
+                <div class="header__buttons-content">
+                    <div class="header__buttons-holder">
+                        <a href="/need-help/" class="header__button header__button--need-help button button--white button--header">
+                        <span class="button__icon">
+
+                        </span>
+                            <span class="header__button-text button__text">Нужна помощь</span>
+                        </a>
+                        <a href="/donate/" class="header__button header__button--want-help button button--green button--header">
+                        <span class="button__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                                <path class="ml" fill="#ffffff" fill-rule="evenodd" d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2C6.485 2 2 6.485 2 12s4.485 10 10 10zm0-22c6.627 0 12 5.373 12 12s-5.373 12-12 12C5.372 24 0 18.627 0 12S5.372 0 12 0zm1.84 10.93c.711 0 1.29-.58 1.29-1.291 0-.712-.579-1.291-1.29-1.291h-2.634v2.581h2.633zm0-4.669a3.381 3.381 0 0 1 3.377 3.378 3.381 3.381 0 0 1-3.378 3.377h-2.633v.884h1.837a1.043 1.043 0 1 1 0 2.087h-1.837v1.896a1.044 1.044 0 0 1-2.087 0v-1.896H7.573a1.043 1.043 0 1 1 0-2.087H9.12v-.884H7.573a1.043 1.043 0 1 1 0-2.087H9.12V7.304c0-.576.467-1.043 1.043-1.043h3.677z"></path>
+                            </svg>
+                        </span>
+                            <span class="button__text">Хочу помочь</span>
+                        </a>
+                        <button class="header__button header__button--burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                    <div class="header__tablet-content">
+                        <ul class="header__navigation-list header__navigation-list--tablet">
+                            <!--модификатор для текущей активной страницы header__nav-link--current -->
+                            <li>
+                                <a class="header__nav-link  title-fourth" href="/about/">О фонде</a></li>
+                            <li>
+                                <a class="header__nav-link  title-fourth" href="/projects/">Наши проекты</a></li>
+                            <li>
+                                <a class="header__nav-link  title-fourth" href="/contacts/">Контакты</a></li>
+                            <li><a class="header__nav-link link-search title-fourth" href="">Поиск</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="preloader ">
+        <div class="preloader__wrapper">
+            <div class="preloader__dots">
+                <div class="preloader__dot preloader__dot--first">
+                    <div></div>
+                </div>
+                <div class="preloader__dot preloader__dot--second">
+                    <div></div>
+                </div>
+                <div class="preloader__dot preloader__dot--third">
+                    <div></div>
+                </div>
+                <div class="preloader__dot preloader__dot--fourth">
+                    <div></div>
+                </div>
+            </div>
+            <svg class="preloader__svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="goo">
+                        <fegaussianblur in="SourceGraphic" stddeviation="10" result="blur"></fegaussianblur>
+                        <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></fecolormatrix>
+                        <feblend in="SourceGraphic" in2="goo"></feblend>
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+    </section>
+
+            <div id="js-agreement" class="popup">
+            <div class="popup__mask">
+            </div>
+            <div class="popup__wrapper">
+                <div class="popup__content popup__content--step-one">
+                    <p style="margin-bottom: 1rem;" class="page-top__text text text--article">Используя сайт
+                        pokolenie-auchan.ru, я даю согласие на обработку моих персональных данных с
+                        использованием
+                        сторонних сервисов аналитики (Yandex Metrics компании Яндекс)
+                        и
+                        принимаю
+                        условие <a class="text--green" href="/Политика Конфиденциальности БФ Поколение АШАН.docx">Политики НКО БФ «Поколение АШАН» в области обработки и защиты персональных данных</a>
+                    </p>
+                    <button id="js-agreement-button" style="margin-right: auto;" class="form__app-button button button--white">
+                        <span class="button__text title-fourth">Я согласен</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+    <script>
+        let searchInput = document.getElementById('search');
+        let resetSearch = document.getElementById('search-reset');
+
+        searchInput.addEventListener('keyup', function (event) {
+            if (this.value.length > 0) {
+                resetSearch.classList.remove('search__button-reset-holder--hidden');
+            } else {
+                resetSearch.classList.add('search__button-reset-holder--hidden');
+            }
+        });
+
+        resetSearch.addEventListener('click', function (event) {
+            this.classList.add('search__button-reset-holder--hidden');
+        });
+
+        let agreementButton = document.getElementById('js-agreement-button');
+        let agreement = document.getElementById('js-agreement');
+        let preloader = document.querySelector('.preloader');
+
+        if (agreementButton && agreement) {
+
+            if (preloader) {
+                let timer = setInterval(function () {
+                    if (preloader.classList.contains('preloader--done') || preloader.classList.contains('no-display')) {
+                        agreement.classList.add('popup--visible');
+                        clearInterval(timer);
+                    }
+                }, 200);
+            } else {
+                agreement.classList.add('popup--visible');
+            }
+
+
+            agreementButton.addEventListener('click', function (event) {
+                agreement.parentNode.removeChild(agreement);
+                document.cookie = "agreement=1; path=/; max-age=604800";
+            })
+        }
+    </script>
+
+<main class="info info--reqs">
+    <div class="mask mask--reqs">
+        <svg class="mask__svg mask__svg-big" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" viewbox="0 0 860 700" style="white-space: preserve-spaces;">
+            <style>
+                @keyframes Path-5_d { 0% { d: path('M588.6,35.1C437.215,-22.4399,502.4,146.3,338.4,96C174.4,45.7,27,158.5,27,265C27,371.5,196.6,350.5,236.7,436.9C276.8,523.3,167.1,557.6,236.7,619.2C306.3,680.8,460.499,693.197,588.6,652C690.599,619.197,778.491,515.896,814.5,437.8C892.381,268.891,690.61,73.8731,588.6,35.1Z'); } 25% { d: path('M683,80C531.615,22.4601,483,97,306,97C134.46,97,61,149,61,241C61,325.037,175.9,316.6,216,403C256.1,489.4,236.4,552.4,306,614C375.6,675.6,489.899,678.197,618,637C719.999,604.197,778.491,515.896,814.5,437.8C892.381,268.891,785.01,118.773,683,80Z'); } 50% { d: path('M588.6,35.1C437.215,-22.4399,502.4,146.3,338.4,96C174.4,45.7,27,158.5,27,265C27,371.5,196.6,350.5,236.7,436.9C276.8,523.3,167.1,557.6,236.7,619.2C306.3,680.8,460.499,693.197,588.6,652C690.599,619.197,778.491,515.896,814.5,437.8C892.381,268.891,690.61,73.8731,588.6,35.1Z'); } 75% { d: path('M640,96C488.615,38.4601,427,146.3,263,96C99,45.7,34.5,218,67,292C101.012,369.442,206.9,330.6,247,417C287.1,503.4,227.037,569.178,299,628C356.5,675,495.561,683.818,618,628C720,581.5,783.941,501.841,798,417C827,242,742.01,134.773,640,96Z'); } 100% { d: path('M588.6,35.1C437.215,-22.4399,502.4,146.3,338.4,96C174.4,45.7,27,158.5,27,265C27,371.5,196.6,350.5,236.7,436.9C276.8,523.3,167.1,557.6,236.7,619.2C306.3,680.8,460.499,693.197,588.6,652C690.599,619.197,778.491,515.896,814.5,437.8C892.381,268.891,690.61,73.8731,588.6,35.1Z'); } }
+            </style>
+            <path id="Path-5" class="st0" d="M588.6,35.1C437.215,-22.4399,502.4,146.3,338.4,96C174.4,45.7,27,158.5,27,265C27,371.5,196.6,350.5,236.7,436.9C276.8,523.3,167.1,557.6,236.7,619.2C306.3,680.8,460.499,693.197,588.6,652C690.599,619.197,778.491,515.896,814.5,437.8C892.381,268.891,690.61,73.8731,588.6,35.1Z" fill="#EEEEEE" clip-rule="evenodd" fill-rule="evenodd" style="animation: 8s linear infinite both Path-5_d;"></path>
+        </svg>
+
+        <svg class="mask__svg mask__svg-small1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" viewbox="0 0 48 48" style="white-space: preserve-spaces;">
+            <style>
+                @keyframes Path-11_d { 0% { d: path('M28.5,10.7C8.7,5.3,1.2,33.7,19.2,37.6C37.2,41.5,48.3,16.1,28.5,10.7Z'); } 25% { d: path('M23,11C2,12.5,4,34.1,22,38C40,41.9,43.471,9.53779,23,11Z'); } 50% { d: path('M28.5,10.7C8.7,5.3,1.2,33.7,19.2,37.6C37.2,41.5,48.3,16.1,28.5,10.7Z'); } 75% { d: path('M33,17C17.5,5,-1.17572,29.3513,16,36C31.5,42,49.2281,29.5637,33,17Z'); } 100% { d: path('M28.5,10.7C8.7,5.3,1.2,33.7,19.2,37.6C37.2,41.5,48.3,16.1,28.5,10.7Z'); } }
+            </style>
+            <path id="Path-11" class="st0" d="M28.5,10.7C8.7,5.3,1.2,33.7,19.2,37.6C37.2,41.5,48.3,16.1,28.5,10.7Z" fill="#EEEEEE" clip-rule="evenodd" fill-rule="evenodd" style="animation: 8s linear infinite both Path-11_d;"></path>
+        </svg>
+
+        <svg class="mask__svg mask__svg-small2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" viewbox="0 0 48 48" style="white-space: preserve-spaces;">
+            <style>
+                @keyframes Path-9_d { 0% { d: path('M26.8,12.3C13.5,9,8.9,32.6,21.1,35.7C33.3,38.8,40.1,15.6,26.8,12.3Z'); } 25% { d: path('M22,14C8.59498,16.8435,12.5,37,26.8,34C39.1195,31.4155,38.5,10.5,22,14Z'); } 50% { d: path('M26.8,12.3C13.5,9,8.9,32.6,21.1,35.7C33.3,38.8,40.1,15.6,26.8,12.3Z'); } 75% { d: path('M30,19C19.5,10,4.43009,28.0415,16,33C30,39,40.4043,27.918,30,19Z'); } 100% { d: path('M26.8,12.3C13.5,9,8.9,32.6,21.1,35.7C33.3,38.8,40.1,15.6,26.8,12.3Z'); } }
+            </style>
+            <path id="Path-9" class="st0" d="M26.8,12.3C13.5,9,8.9,32.6,21.1,35.7C33.3,38.8,40.1,15.6,26.8,12.3Z" fill="#EEEEEE" clip-rule="evenodd" fill-rule="evenodd" style="animation: 8s linear infinite both Path-9_d;"></path>
+        </svg>
+
+    </div>
+    <div class="info__back-link back-link">
+        <a href="/" class="back-link__link">
+        <span class="back-link__icon">
+            <svg width="8px" height="10px" viewbox="0 0 8 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="MOB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="1">
+                    <g class="ml" id="PROGRAMS_tab" transform="translate(-40.000000, -118.000000)" fill="#231F20">
+                        <g id="Group" transform="translate(40.000000, 113.000000)">
+                            <path d="M0,5.65051018 C0,5.52209687 0.0388593864,5.39655674 0.111681088,5.2897104 C0.315395503,4.99081407 0.72825341,4.91004629 1.03382503,5.10931051 L7.70381945,9.45883489 C7.77686765,9.50646985 7.83954945,9.56778234 7.88824824,9.63923478 C8.09196266,9.93813111 8.00939108,10.34197 7.70381945,10.5412342 L1.03382503,14.8907586 C0.92459248,14.9619895 0.796248645,15 0.664967455,15 C0.29771607,15 0,14.7087876 0,14.3495589 L0,5.65051018 Z" id="Fill-4-Copy-10" transform="translate(4.000000, 10.000000) scale(-1, 1) translate(-4.000000, -10.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </span>
+            <span class="back-link__text title-fourth">О фонде</span>
+        </a>
+    </div>
+
+    <section class="page-top">
+        <div class="info__block-wrapper page-top__wrapper">
+            <h1 class="info__title page-top__title title-first">Реквизиты фонда</h1>
+            <div class="tabs tabs--reqs its-links">
+                <div class="tabs__scroller">
+                    <ul class="tabs__list">
+                        <li class="tabs__tab"><a href="/about/control-system/" class="title-fourth">Система управления</a></li>
+                        <li class="tabs__tab tabs__tab--active"><a href="/about/requisites/" class="title-fourth">Реквизиты</a></li>
+                        <li class="tabs__tab"><a href="/about/statements/" class="title-fourth">Отчёт</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info__body">
+        <div class="info__wrapper">
+            <div class="info__content">
+
+                <div class="info__two-columns">
+                    <div class="info__columns-container">
+                        <div class="info__left">
+                            <div class="info__file-container info__file-container--download">
+                                <a class="info__file-link" href="/upload/РЕКВИЗИТЫ Фонд Поколение АШАН.docx" target="_blank" download="">
+    <span class="info__file">
+        <span class="info__file-icon"></span>
+        <span class="info__file-text title-fourth">Реквизиты фонда</span>
+        <span class="info__file-info text text--footernote">
+            <span class="info__file-type">docx, </span>
+            <span class="info__file-size">16 кб</span>
+        </span>
+    </span>
+</a>                            </div>
+                        </div>
+                        <div class="info__right info__right--double-columns">
+                            <div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>Полное название организации</b></p>
+    <p class="text text--footernote">Некоммерческая организация Благотворительный фонд
+        «Поколение АШАН»</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>Юридический адрес</b></p>
+    <p class="text text--footernote">Россия, 107140, г. Москва, ул. Верхняя
+        Красносельская, д.3А</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>Фактический адрес</b></p>
+    <p class="text text--footernote">Россия, 107140, г. Москва, ул. Верхняя
+        Красносельская, д.3А</p>
+<p class="text text--footernote">
+721 - 20 -99 (90), факс 721 -13 -61</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>Постановка на учет в налоговом
+            органе</b></p>
+    <p class="text text--footernote">ИМНС No 8 по г. Москве Свидетельство серия 77 No 013878043 24 мая 2011
+</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>ИНН</b></p>
+    <p class="text text--footernote">7708240080</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>КПП</b></p>
+    <p class="text text--footernote">770801001</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>Коды идентификации по общероссийским
+            классификаторам</b></p>
+    <p class="text text--footernote">ОКПО – 92455346</p>
+    <p class="text text--footernote">ОКВЭД – 65.12</p>
+    <p class="text text--footernote">ОКФС – 50</p>
+    <p class="text text--footernote">ОКОПФ – 88</p>
+    <p class="text text--footernote">ОКАТО – 45286565000</p>
+<p class="text text--footernote">ОКТМО – 45378000</p>
+
+
+
+
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>Регистрация в Минюсте РФ</b></p>
+    <p class="text text--footernote">Свидетельство от 25 мая 2011 No 7714013096</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>Регистрация в УФНС по г. Москве</b>
+    </p>
+    <p class="text text--footernote">Свидетельство серия 77 No 013878042 24 мая 2011</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>ОГРН</b></p>
+    <p class="text text--footernote">1117799009349</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>ФСС</b></p>
+    <p class="text text--footernote">7730033422</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>ПФР</b></p>
+    <p class="text text--footernote">087-106-052063</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>ТФОМС</b></p>
+    <p class="text text--footernote">с 01/01/2011 номер не присваивают</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>Банковские реквизиты</b></p>
+    <p class="text text--footernote">р/счет No 40701810938000000028 в ПАО СБЕРБАНК г.&nbsp;Москва БИК 044525225, к/с 30101810400000000225 в ОПЕРУ Московского ГТУ Банка России</p>
+</div>
+<div class="info__text-list-block">
+    <p class="text text--footernote text--bold"><b>Директор Фонда </b></p>
+    <p class="text text--footernote">Трубицына Юлия Юрьевна</p>
+</div>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+</div>
+
+<footer class="footer">
+    <div class="footer__wrapper width-wrapper">
+        <div class="footer__content">
+            <div class="footer__top-content">
+                <div class="footer__top-left">
+                    <div class="footer__top-left-block">
+                        <p class="footer__text text text--footer">Россия, г. Москва, 107140,</p>
+                        <p class="footer__text text text--footer">ул. Верхняя Красносельская, д. 3А</p>
+                    </div>
+                    <div class="footer__top-left-block">
+                        <p class="footer__text text">
+                            <a href="tel:84957212091" class="footer__link">+7 (495) 721 2091</a>
+                        </p>
+                        <p class="footer__text text">
+                            <a href="mailto:infopokolenie@gmail.com" class="footer__link">infopokolenie@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__top-center">
+                    <div class="footer__top-center-block">
+                        <p class="footer__text text text--footer">Некоммерческая организация Благотворительный фонд
+                            «Поколение АШАН»</p>
+                    </div>
+                    <div class="footer__top-center-block">
+                        <p class="footer__text text text--footer">ИНН 7708240080</p>
+                        <p class="footer__text text text--footer">ОГРН 1117799009349</p>
+                    </div>
+                </div>
+                <div class="footer__top-right">
+                    <form class="footer__search-form">
+                        <div class="footer__search-container">
+                            <label class="footer__search-label" for="footer-search"></label>
+                            <input id="footer-search" class="footer__search-input" placeholder="Поиск по сайту">
+                            <a href="" class="footer__search-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                                    <path fill="#FFF" fill-rule="nonzero" d="M20.529 20.529a1 1 0 0 1-1.414.005L14.86 16.31a6.818 6.818 0 1 1 1.42-1.409l4.244 4.214a1 1 0 0 1 .005 1.414zm-9.71-4.893a4.818 4.818 0 1 0 0-9.636 4.818 4.818 0 0 0 0 9.636z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </form>
+                    <div class="footer__social social">
+                        <ul class="social__list">
+                            <!--                            <li class="social__item social__item--vk">-->
+                            <!--                                <a href=""></a>-->
+                            <!--                            </li>-->
+                            <!--                            <li class="social__item social__item--ok">-->
+                            <!--                                <a href=""></a>-->
+                            <!--                            </li>-->
+                            <!--                            <li class="social__item social__item--yt">-->
+                            <!--                                <a href=""></a>-->
+                            <!--                            </li>-->
+                            <!--                            <li class="social__item social__item--fb">-->
+                            <!--                                <a href=""></a>-->
+                            <!--                            </li>-->
+                            <!--                            <li class="social__item social__item--tw">-->
+                            <!--                                <a href=""></a>-->
+                            <!--                            </li>-->
+<!--                            <li class="social__item social__item--im">-->
+<!--                                <a href="https://www.instagram.com/pokolenie_auchan/" target="_blank"></a>-->
+<!--                            </li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom-content">
+                <div class="footer__bottom-left">
+                    <a href="/" class="footer__copyright footer__text text">Поколение АШАН © 2022</a>
+                </div>
+                <div class="footer__bottom-center">
+                    <ul class="footer__payment-system">
+                        <li class="footer__payment-item footer__payment-item--visa">
+                            <a href=""></a>
+                        </li>
+
+                        <li class="footer__payment-item footer__payment-item--mastercard">
+                            <a href=""></a>
+                        </li>
+
+                        <li class="footer__payment-item footer__payment-item--mir">
+                            <a href=""></a>
+                        </li>
+                                                    <li class="footer__payment-item footer__payment-item--mastercard">
+                                <a style="background-image: url('../../local/templates/main/img/JCB_logo 3.svg')" href=""></a>
+                            </li>
+                        
+                    </ul>
+                </div>
+                <div class="footer__bottom-right">
+                    <div class="footer__map-link text">
+                        <a href="">Карта сайта</a>
+                    </div>
+                    <a href="http://peachdesign.ru/" class="footer__author text">
+                        <span class="footer__author-made">Сделано в</span>
+                        <span class="footer__author-logo">
+
+                        </span>
+                    </a>
+                    <div class="footer__political text">
+                        <a href="/ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ООО «АШАН»-АТАК.docx" download="">Политика
+                            конфиденциальности</a>
+                    </div>
+                    <div class="footer__political text">
+                        <a href="/Политика Конфиденциальности БФ Поколение АШАН.docx" download="">Политика НКО БФ
+                            «Поколение АШАН» в области обработки и защиты персональных данных</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__google">
+                <p class="text">
+                    Этот сайт защищен reCAPTCHA и применяются <a target="_blank" href="https://policies.google.com/privacy">Политика
+                        конфиденциальности</a> и <a target="_blank" href="https://policies.google.com/terms">Условия
+                        обслуживания Google</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- VK -->
+<script type="text/javascript">!function () {
+        var t = document.createElement("script");
+        t.type = "text/javascript", t.async = !0, t.src = "https://vk.com/js/api/openapi.js?162", t.onload = function () {
+            VK.Retargeting.Init("VK-RTRG-429050-bzXZw"), VK.Retargeting.Hit()
+        }, document.head.appendChild(t)
+    }();</script>
+<noscript><img src="https://vk.com/rtrg?p=VK-RTRG-429050-bzXZw" style="position:fixed; left:-999px;" alt=""></noscript>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(54299472, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/54299472" style="position:absolute; left:-9999px;" alt=""></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<script>
+    var footerSearch = document.querySelector('.footer__search-form');
+    var mainSearch = document.querySelector('.search');
+    var mainSearchForm = document.getElementById('js-search-form');
+    var mainSearchInput = document.getElementById('search');
+    var footerSearchIcon = document.querySelector('.footer__search-icon');
+    var mainSearchIcon = mainSearchForm.querySelector('.search__link-icon');
+
+    footerSearchIcon.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        var q = document.getElementById('footer-search').value;
+        mainSearch.classList.add('search--visible');
+        mainSearchInput.value = q;
+        mainSearchIcon.click();
+    });
+
+    footerSearch.addEventListener('submit', function (event) {
+        console.log('click');
+        event.preventDefault();
+
+        var q = document.getElementById('footer-search').value;
+        mainSearch.classList.add('search--visible');
+        mainSearchInput.value = q;
+        mainSearchIcon.click();
+
+    })
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LcMap0UAAAAAEf7X2qhfjm005T4M2Tet1bc40DD"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=88fd579d-8eac-43ae-a76d-2b2f706eccab&lang=ru_RU" type="text/javascript"></script>
+<script src="/local/templates/main/js/vendors.js"></script>
+<script src="/local/templates/main/js/main.js"></script>
+
+</body>
+</html>
+<!--7dc460a52acdcaeecfcf9221a2442664-->

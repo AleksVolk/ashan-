@@ -1,0 +1,1038 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Благотворительный фонд "АШАН"</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="Ашан, благотворительность, фонд">
+<meta name="description" content="Некоммерческая организация Благотворительный фонд «Поколение АШАН»">
+<script type="text/javascript" data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {'CACHE_MODE':'HTMLCACHE','storageBlocks':[],'dynamicBlocks':[],'AUTO_UPDATE':true,'AUTO_UPDATE_TTL':'0'};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}else{w.frameRequestFail = f;}return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();})(window, document);</script>
+
+
+<link href="/bitrix/cache/css/s1/main/kernel_main/kernel_main_v1.css?165520425028822" type="text/css" rel="stylesheet">
+<link href="/bitrix/cache/css/s1/main/page_14bf9a1d6822018e5e1064ff6a12c344/page_14bf9a1d6822018e5e1064ff6a12c344_v1.css?1655204261755" type="text/css" rel="stylesheet">
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/'});</script>
+
+
+<script type="text/javascript" src="/bitrix/cache/js/s1/main/kernel_main/kernel_main_v1.js?1655204250316269"></script>
+<script type="text/javascript" src="/bitrix/cache/js/s1/main/kernel_main_polyfill_promise/kernel_main_polyfill_promise_v1.js?16552042502506"></script>
+<script type="text/javascript" src="/bitrix/js/main/loadext/loadext.min.js?1557755585810"></script>
+<script type="text/javascript" src="/bitrix/js/main/loadext/extension.min.js?15577555851304"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_db.min.js?155775558510247"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?155775558511334"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/json/json2.min.js','/bitrix/js/main/core/core_ls.js','/bitrix/js/main/core/core_fx.js','/bitrix/js/main/session.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/date/main.date.js','/bitrix/js/main/core/core_popup.js','/bitrix/js/main/core/core_date.js','/bitrix/js/main/utils.js','/bitrix/js/main/polyfill/promise/js/promise.js']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/core/css/core_popup.css','/bitrix/js/main/core/css/core_date.css','/local/templates/main/components/bitrix/news/projects/bitrix/news.detail/.default/style.css','/local/templates/main/components/bitrix/news.list/other-projects/style.css']); </script>
+
+
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "cce6a3800fea8c99b7b31e424f9e3f10"]); _ba.push(["host", "pokolenie-auchan.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+        <link href="/local/templates/main/css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="/local/templates/main/css/main.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/dist/css/lightgallery.min.css" integrity="sha256-oPZ2OUkKul2aJQeDwKoO1p+DpvFR+w17n7YXydvFRWU=" crossorigin="anonymous">
+    </head>
+<body>
+<div class="success-message">
+    <div class="success-message__mask"></div>
+    <div class="success-message__wrapper">
+        <div class="success-message__content">
+            <div class="success-message__close-button"></div>
+            <div class="success-message__icon"></div>
+            <div class="success-message__text title-second">Ваше сообщение<br> успешно отправлено!</div>
+        </div>
+    </div>
+</div>
+
+<section class="site-map">
+    <div class="site-map__wrapper">
+        <div class="site-map__content">
+            <div class="site-map__close-button"></div>
+            <div class="site-map__title title-first">Карта сайта</div>
+            <ul class="site-map__columns">
+                <li class="site-map__column">
+                    <a href="/about/" class="site-map__column-title link title-second"><span>О фонде</span></a>
+                    <a href="/about/control-system/" class="site-map__column-point text link"><span>Система управления деятельностью фонда</span></a>
+                    <a href="/about/programs/" class="site-map__column-point text link"><span>Программы фонда</span></a>
+                    <a href="/about/requisites/" class="site-map__column-point text link"><span>Реквизиты фонда</span></a>
+                    <a href="/about/statements/" class="site-map__column-point text link"><span>Отчет о деятельности фонда</span></a>
+                </li>
+                <li class="site-map__column">
+                    <a href="/donate/" class="site-map__column-title link title-second"><span>Сделать пожертвование</span></a>
+                </li>
+                <li class="site-map__column">
+                    <a href="/need-help/" class="site-map__column-title link title-second"><span>Получить помощь</span></a>
+                    <a href="/projects/" class="site-map__column-title link title-second"><span>Наши проекты</span></a>
+                    <a href="/contacts/" class="site-map__column-title link title-second"><span>Контакты</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="mobile-menu">
+    <div class="mobile-menu__mask"></div>
+    <div class="mobile-menu__wrapper">
+        <div class="mobile-menu__content">
+            <div class="mobile-menu__close-button"></div>
+            <a href="/index/" class="mobile-menu__logo">
+                <img src="/img/logo.svg" width="145" height="64">
+            </a>
+            <div class="mobile-menu__buttons-holder">
+                <a href="/need-help/" class="mobile-menu__button mobile-menu__button--need-help button button--white">
+                    <span class="button__icon">
+
+                    </span>
+                    <span class="header__button-text button__text title-fourth">Нужна помощь</span>
+                </a>
+                <a href="/donate/" class="mobile-menu__button mobile-menu__button--want-help button button--green">
+                    <span class="button__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                            <path class="ml" fill="#ffffff" fill-rule="evenodd" d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2C6.485 2 2 6.485 2 12s4.485 10 10 10zm0-22c6.627 0 12 5.373 12 12s-5.373 12-12 12C5.372 24 0 18.627 0 12S5.372 0 12 0zm1.84 10.93c.711 0 1.29-.58 1.29-1.291 0-.712-.579-1.291-1.29-1.291h-2.634v2.581h2.633zm0-4.669a3.381 3.381 0 0 1 3.377 3.378 3.381 3.381 0 0 1-3.378 3.377h-2.633v.884h1.837a1.043 1.043 0 1 1 0 2.087h-1.837v1.896a1.044 1.044 0 0 1-2.087 0v-1.896H7.573a1.043 1.043 0 1 1 0-2.087H9.12v-.884H7.573a1.043 1.043 0 1 1 0-2.087H9.12V7.304c0-.576.467-1.043 1.043-1.043h3.677z"></path>
+                        </svg>
+                    </span>
+                    <span class="button__text title-fourth">Хочу помочь</span>
+                </a>
+            </div>
+            <ul class="mobile-menu__navigation">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__nav-link  title-fourth" href="/about/">О
+                        фонде</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__nav-link  title-fourth" href="/projects/">Наши проекты</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__nav-link  title-fourth" href="/contacts/">Контакты</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__nav-link link-search title-fourth" href="">Поиск</a>
+                </li>
+            </ul>
+
+            <footer class="mobile-menu__footer footer footer--mobile-menu">
+                <div class="footer__wrapper">
+                    <div class="footer__content">
+
+
+                        <div class="footer__social social social--mobile-menu">
+                            <ul class="social__list">
+                                <!--                                    <li class="social__item social__item--vk">-->
+                                <!--                                        <a href=""></a>-->
+                                <!--                                    </li>-->
+                                <!--                                    <li class="social__item social__item--ok">-->
+                                <!--                                        <a href=""></a>-->
+                                <!--                                    </li>-->
+                                <!--                                    <li class="social__item social__item--yt">-->
+                                <!--                                        <a href=""></a>-->
+                                <!--                                    </li>-->
+                                <!--                                    <li class="social__item social__item--fb">-->
+                                <!--                                        <a href=""></a>-->
+                                <!--                                    </li>-->
+                                <!--                                    <li class="social__item social__item--tw">-->
+                                <!--                                        <a href=""></a>-->
+                                <!--                                    </li>-->
+<!--                                <li class="social__item social__item--im">-->
+<!--                                    <a href=""></a>-->
+<!--                                </li>-->
+                            </ul>
+                        </div>
+                        <div class="footer__bottom-content">
+                            <div class="footer__bottom-left">
+                                <div class="footer__copyright text">Поколение АШАН © 2022</div>
+                            </div>
+                            <div class="footer__bottom-center">
+                                <ul class="footer__payment-system">
+                                    <li class="footer__payment-item footer__payment-item--visa">
+                                        <a href=""></a>
+                                    </li>
+
+                                    <li class="footer__payment-item footer__payment-item--mastercard">
+                                        <a href=""></a>
+                                    </li>
+
+                                    <li class="footer__payment-item footer__payment-item--mir">
+                                        <a href=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__bottom-right">
+                                <div class="footer__map-link text">
+                                    <a href="">Карта сайта</a>
+                                </div>
+                                <a href="http://peachdesign.ru/" class="footer__author text">
+                                    <span class="footer__author-made">Сделано в</span>
+                                    <span class="footer__author-logo"></span>
+                                </a>
+                                <div class="footer__political text">
+                                    <a href="/ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ООО «АШАН»-АТАК.docx" download="">Политика
+                                        конфиденциальности</a>
+                                </div>
+                            </div>
+                            <div class="footer__google">
+                                <p class="text">
+                                    Этот сайт защищен reCAPTCHA и применяются <a href="">Политика конфиденциальности</a>
+                                    и <a href="">Условия обслуживания Google</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</section>
+
+<section class="search">
+    <div class="search__mask"></div>
+    <div class="search__wrapper">
+        <div class="search__content">
+            <div class="search__close-button"></div>
+            <div class="search__title-container">
+                <h1 class="search__title title-first">Поиск по сайту</h1>
+            </div>
+            <form id="js-search-form" method="" action="" class="search__form">
+                <div class="search__input-container">
+                    <label class="search__label" for="search"></label>
+                    <input id="search" class="search__input text" placeholder="Введите Ваш запрос" required="">
+                    <button type="submit" class="search__link-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                            <path fill="#000000" fill-rule="nonzero" d="M20.529 20.529a1 1 0 0 1-1.414.005L14.86 16.31a6.818 6.818 0 1 1 1.42-1.409l4.244 4.214a1 1 0 0 1 .005 1.414zm-9.71-4.893a4.818 4.818 0 1 0 0-9.636 4.818 4.818 0 0 0 0 9.636z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="search__button-reset-holder">
+                    <button type="reset" id="search-reset" class="search__reset-button text text--footernote search__button-reset-holder--hidden">
+                        Cбросить
+                    </button>
+                </div>
+            </form>
+            <div class="js-search-result">
+                <div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="wrapper">
+    <header class="header">
+        <div class="header__wrapper width-wrapper">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="/">
+                        <img src="/img/logo.svg" width="145" height="64">
+                    </a>
+                </div>
+
+                <nav class="header__navigation">
+
+                    <ul class="header__navigation-list">
+                        <!--модификатор для текущей активной страницы header__nav-link--current -->
+
+                        <li>
+                            <a class="header__nav-link js-header__nav-link--dropdown title-fourth " href="/">
+                                О фонде
+                                <span class="header__nav-icon-dropdown">
+                      <svg width="14" height="8" viewbox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1.75L6.625 6.25L12.25 1.75" stroke="#008F4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                    </span>
+                            </a>
+                            <ul class="header__nav-dropdown js-header__nav-dropdown">
+                                <li>
+                                    <a href="/about/requisites/" class="header__nav-dropdown-link ">Реквизиты</a>
+                                </li>
+                                <li>
+                                    <a href="/about/statements/" class="header__nav-dropdown-link ">Отчеты</a>
+                                </li>
+                                <li>
+                                    <a href="/about/control-system/" class="header__nav-dropdown-link ">Система управления</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a class="header__nav-link  title-fourth" href="/programs/">Программы</a></li>
+                        <li>
+                            <a class="header__nav-link  title-fourth" href="/projects/">Проекты</a></li>
+                        <li>
+                            <a class="header__nav-link  title-fourth" href="/contacts/">Контакты</a></li>
+                        <li><a class="header__nav-link link-search title-fourth" href="">Поиск</a></li>
+                    </ul>
+                </nav>
+                <div class="header__buttons-content">
+                    <div class="header__buttons-holder">
+                        <a href="/need-help/" class="header__button header__button--need-help button button--white button--header">
+                        <span class="button__icon">
+
+                        </span>
+                            <span class="header__button-text button__text">Нужна помощь</span>
+                        </a>
+                        <a href="/donate/" class="header__button header__button--want-help button button--green button--header">
+                        <span class="button__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                                <path class="ml" fill="#ffffff" fill-rule="evenodd" d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2C6.485 2 2 6.485 2 12s4.485 10 10 10zm0-22c6.627 0 12 5.373 12 12s-5.373 12-12 12C5.372 24 0 18.627 0 12S5.372 0 12 0zm1.84 10.93c.711 0 1.29-.58 1.29-1.291 0-.712-.579-1.291-1.29-1.291h-2.634v2.581h2.633zm0-4.669a3.381 3.381 0 0 1 3.377 3.378 3.381 3.381 0 0 1-3.378 3.377h-2.633v.884h1.837a1.043 1.043 0 1 1 0 2.087h-1.837v1.896a1.044 1.044 0 0 1-2.087 0v-1.896H7.573a1.043 1.043 0 1 1 0-2.087H9.12v-.884H7.573a1.043 1.043 0 1 1 0-2.087H9.12V7.304c0-.576.467-1.043 1.043-1.043h3.677z"></path>
+                            </svg>
+                        </span>
+                            <span class="button__text">Хочу помочь</span>
+                        </a>
+                        <button class="header__button header__button--burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                    <div class="header__tablet-content">
+                        <ul class="header__navigation-list header__navigation-list--tablet">
+                            <!--модификатор для текущей активной страницы header__nav-link--current -->
+                            <li>
+                                <a class="header__nav-link  title-fourth" href="/about/">О фонде</a></li>
+                            <li>
+                                <a class="header__nav-link  title-fourth" href="/projects/">Наши проекты</a></li>
+                            <li>
+                                <a class="header__nav-link  title-fourth" href="/contacts/">Контакты</a></li>
+                            <li><a class="header__nav-link link-search title-fourth" href="">Поиск</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="preloader ">
+        <div class="preloader__wrapper">
+            <div class="preloader__dots">
+                <div class="preloader__dot preloader__dot--first">
+                    <div></div>
+                </div>
+                <div class="preloader__dot preloader__dot--second">
+                    <div></div>
+                </div>
+                <div class="preloader__dot preloader__dot--third">
+                    <div></div>
+                </div>
+                <div class="preloader__dot preloader__dot--fourth">
+                    <div></div>
+                </div>
+            </div>
+            <svg class="preloader__svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="goo">
+                        <fegaussianblur in="SourceGraphic" stddeviation="10" result="blur"></fegaussianblur>
+                        <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></fecolormatrix>
+                        <feblend in="SourceGraphic" in2="goo"></feblend>
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+    </section>
+
+            <div id="js-agreement" class="popup">
+            <div class="popup__mask">
+            </div>
+            <div class="popup__wrapper">
+                <div class="popup__content popup__content--step-one">
+                    <p style="margin-bottom: 1rem;" class="page-top__text text text--article">Используя сайт
+                        pokolenie-auchan.ru, я даю согласие на обработку моих персональных данных с
+                        использованием
+                        сторонних сервисов аналитики (Yandex Metrics компании Яндекс и Google Analytics компании Google)
+                        и
+                        принимаю
+                        условие <a class="text--green" href="/Политика Конфиденциальности БФ Поколение АШАН.docx">Политики НКО БФ «Поколение АШАН» в области обработки и защиты персональных данных</a>
+                    </p>
+                    <button id="js-agreement-button" style="margin-right: auto;" class="form__app-button button button--white">
+                        <span class="button__text title-fourth">Я согласен</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+    <script>
+        let searchInput = document.getElementById('search');
+        let resetSearch = document.getElementById('search-reset');
+
+        searchInput.addEventListener('keyup', function (event) {
+            if (this.value.length > 0) {
+                resetSearch.classList.remove('search__button-reset-holder--hidden');
+            } else {
+                resetSearch.classList.add('search__button-reset-holder--hidden');
+            }
+        });
+
+        resetSearch.addEventListener('click', function (event) {
+            this.classList.add('search__button-reset-holder--hidden');
+        });
+
+        let agreementButton = document.getElementById('js-agreement-button');
+        let agreement = document.getElementById('js-agreement');
+        let preloader = document.querySelector('.preloader');
+
+        if (agreementButton && agreement) {
+
+            if (preloader) {
+                let timer = setInterval(function () {
+                    if (preloader.classList.contains('preloader--done') || preloader.classList.contains('no-display')) {
+                        agreement.classList.add('popup--visible');
+                        clearInterval(timer);
+                    }
+                }, 200);
+            } else {
+                agreement.classList.add('popup--visible');
+            }
+
+
+            agreementButton.addEventListener('click', function (event) {
+                agreement.parentNode.removeChild(agreement);
+                document.cookie = "agreement=1; path=/; max-age=604800";
+            })
+        }
+    </script>
+
+    <section class="project-map">
+    <div class="project-map__mask"></div>
+    <div class="project-map__wrapper">
+        <div class="project-map__content" id="project-inner-map">
+
+        </div>
+        <div class="project-map__close-button-container">
+            <button class="project-map__button">
+                <span>Закрыть</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<main class="project project--yellow">
+    <div class="project__back-link back-link">
+        <a href="/projects/" class="back-link__link">
+            <span class="back-link__icon">
+                <svg width="8px" height="10px" viewbox="0 0 8 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="MOB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="1">
+                        <g class="ml" id="PROGRAMS_tab" transform="translate(-40.000000, -118.000000)" fill="#231F20">
+                            <g id="Group" transform="translate(40.000000, 113.000000)">
+                                <path d="M0,5.65051018 C0,5.52209687 0.0388593864,5.39655674 0.111681088,5.2897104 C0.315395503,4.99081407 0.72825341,4.91004629 1.03382503,5.10931051 L7.70381945,9.45883489 C7.77686765,9.50646985 7.83954945,9.56778234 7.88824824,9.63923478 C8.09196266,9.93813111 8.00939108,10.34197 7.70381945,10.5412342 L1.03382503,14.8907586 C0.92459248,14.9619895 0.796248645,15 0.664967455,15 C0.29771607,15 0,14.7087876 0,14.3495589 L0,5.65051018 Z" id="Fill-4-Copy-10" transform="translate(4.000000, 10.000000) scale(-1, 1) translate(-4.000000, -10.000000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </span>
+            <span class="back-link__text title-fourth">Наши проекты</span>
+        </a>
+    </div>
+    <section class="project__header project-header">
+        <div class="project-header__wrapper">
+            <div class="project-header__content width-wrapper">
+                <div class="project-header__mask">
+                    <svg class="project-header__mask-svg-big" width="920" height="640" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" viewbox="0 0 920 640" style="white-space: preserve-spaces;">
+                        <style>
+                            @keyframes qaz {
+                                0% {
+                                    d: path('M652.8,587C362.9,521.2,362.903,565.315,249.8,587C-18.9932,638.535,-39.5,428.5,106,356C232.922,292.757,108.5,238.7,172.4,164.2C236.3,89.7,323.105,194.708,515.2,74.1C605.502,17.4035,758.454,39.7303,817.3,128.8C905.331,262.045,942.7,652.8,652.8,587Z');
+                                }
+                                25% {
+                                    d: path('M634,568C481.841,511.674,430.43,528.788,304,568C131.5,621.5,82.2,496.4,136,429C227.71,314.107,79.6,264.3,174,196C263.252,131.424,359,196,520,130C662.399,71.6251,799,63.3,853,196C913.194,343.92,828.5,640,634,568Z');
+                                }
+                                50% {
+                                    d: path('M652.8,587C362.9,521.2,362.903,565.315,249.8,587C-18.9932,638.535,13.7714,478.063,99.8,412.1C216.461,322.649,108.5,238.7,172.4,164.2C236.3,89.7,323.105,194.708,515.2,74.1C605.502,17.4035,758.454,39.7303,817.3,128.8C905.331,262.045,942.7,652.8,652.8,587Z');
+                                }
+                                75% {
+                                    d: path('M596,541C302.918,491.252,328.04,553.404,242,590C131.5,637,19.2,506.9,119,378C197.068,277.168,119,212,172.4,164.2C231.378,111.407,303.5,213.5,481,70C563.917,2.96535,767.5,49,826,147C907.855,284.125,867,587,596,541Z');
+                                }
+                                100% {
+                                    d: path('M652.8,587C362.9,521.2,362.903,565.315,249.8,587C-18.9932,638.535,13.7714,478.063,99.8,412.1C216.461,322.649,108.5,238.7,172.4,164.2C236.3,89.7,323.105,194.708,515.2,74.1C605.502,17.4035,758.454,39.7303,817.3,128.8C905.331,262.045,942.7,652.8,652.8,587Z');
+                                }
+                            }
+                        </style>
+                        <path id="Mask" class="st0" d="M652.8,587C362.9,521.2,362.903,565.315,249.8,587C-18.9932,638.535,-39.5,428.5,106,356C232.922,292.757,108.5,238.7,172.4,164.2C236.3,89.7,323.105,194.708,515.2,74.1C605.502,17.4035,758.454,39.7303,817.3,128.8C905.331,262.045,942.7,652.8,652.8,587Z" fill="#858585" clip-rule="evenodd" fill-rule="evenodd" style="animation: 30s linear infinite both qaz;"></path>
+                    </svg>
+
+                    <svg class="project-header__small-svg1" width="72" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" viewbox="0 0 72 60" style="white-space: preserve-spaces;">
+                        <style>
+                            @keyframes tyu {
+                                0% {
+                                    d: path('M15.5,32.5C38.1319,-22.628,73.3372,30.4581,50.7,44.9C28.0371,59.3583,8.27826,50.0911,15.5,32.5Z');
+                                }
+                                25% {
+                                    d: path('M19,22C36,5,60.5219,34.6085,48,44C36,53,5.55381,35.4462,19,22Z');
+                                }
+                                50% {
+                                    d: path('M15.5,32.5C38.1319,-22.628,73.3372,30.4581,50.7,44.9C28.0371,59.3583,8.27826,50.0911,15.5,32.5Z');
+                                }
+                                75% {
+                                    d: path('M15,35C15,14,50.1006,19.5479,55,30C62.5,46,15,54.0158,15,35Z');
+                                }
+                                100% {
+                                    d: path('M15.5,32.5C38.1319,-22.628,73.3372,30.4581,50.7,44.9C28.0371,59.3583,8.27826,50.0911,15.5,32.5Z');
+                                }
+                            }
+                        </style>
+                        <path id="Path" class="st0" d="M15.5,32.5C38.1319,-22.628,73.3372,30.4581,50.7,44.9C28.0371,59.3583,8.27826,50.0911,15.5,32.5Z" fill="#F9A51A" clip-rule="evenodd" fill-rule="evenodd" style="animation: 30s linear infinite both tyu;"></path>
+                    </svg>
+
+                    <svg class="project-header__small-svg2" width="72" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" viewbox="0 0 72 60" style="white-space: preserve-spaces;">
+                        <style>
+                            @keyframes rty {
+                                0% {
+                                    d: path('M15.9,38.4C3.54928,26.3493,56,-2.6,56,23.7C56,49.9,28.2495,50.4495,15.9,38.4Z');
+                                }
+                                25% {
+                                    d: path('M14,33C10.4194,16.1199,56.7843,13.2275,55,30C52.5,53.5,17.5,49.5,14,33Z');
+                                }
+                                50% {
+                                    d: path('M15.9,38.4C3.54928,26.3493,56,-2.6,56,23.7C56,49.9,28.2495,50.4495,15.9,38.4Z');
+                                }
+                                75% {
+                                    d: path('M20,41C5,32,40.5,8,53,20C63.7242,30.2952,33.5582,49.1349,20,41Z');
+                                }
+                                100% {
+                                    d: path('M15.9,38.4C3.54928,26.3493,56,-2.6,56,23.7C56,49.9,28.2495,50.4495,15.9,38.4Z');
+                                }
+                            }
+                        </style>
+                        <path id="Path" class="st0" d="M15.9,38.4C3.54928,26.3493,56,-2.6,56,23.7C56,49.9,28.2495,50.4495,15.9,38.4Z" fill="#F9A51A" clip-rule="evenodd" fill-rule="evenodd" style="animation: 30s linear infinite both rty;"></path>
+                    </svg>
+
+                    <svg class="project-header__small-svg3" width="48" height="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" viewbox="0 0 48 48" style="white-space: preserve-spaces;">
+                        <style>
+                            @keyframes Path-11_d {
+                                0% {
+                                    d: path('M28.5,10.7C8.7,5.3,1.2,33.7,19.2,37.6C37.2,41.5,48.3,16.1,28.5,10.7Z');
+                                }
+                                25% {
+                                    d: path('M23,11C2,12.5,4,34.1,22,38C40,41.9,43.471,9.53779,23,11Z');
+                                }
+                                50% {
+                                    d: path('M28.5,10.7C8.7,5.3,1.2,33.7,19.2,37.6C37.2,41.5,48.3,16.1,28.5,10.7Z');
+                                }
+                                75% {
+                                    d: path('M33,17C17.5,5,-1.17572,29.3513,16,36C31.5,42,49.2281,29.5637,33,17Z');
+                                }
+                                100% {
+                                    d: path('M28.5,10.7C8.7,5.3,1.2,33.7,19.2,37.6C37.2,41.5,48.3,16.1,28.5,10.7Z');
+                                }
+                            }
+                        </style>
+                        <path id="Path-11" class="st0" d="M28.5,10.7C8.7,5.3,1.2,33.7,19.2,37.6C37.2,41.5,48.3,16.1,28.5,10.7Z" fill="#F9A51A" clip-rule="evenodd" fill-rule="evenodd" style="animation: 30s linear infinite both Path-11_d;"></path>
+                    </svg>
+
+                </div>
+                <h1 class="project-header__title title-first">Колыбель здоровья</h1>
+                <div class="project-header__slider-container">
+                    <div class="project-header__slider slider slider--project-header swiper-container">
+                        <ul class="project-header__slider-wrapper slider__wrapper swiper-wrapper">
+                                                            <li class="project-header__item swiper-slide">
+                                    <div class="project-header__image" style="background-image: url('../../upload/iblock/470/Rebyonok-derzhit-mamu-za-palets.jpg')"></div>
+                                </li>
+                                                    </ul>
+
+                        <div class="project-header__navigation-arrow project-header__navigation-arrow--prev slider__navigation-arrow--prev nav-arrow nav-arrow--prev">
+                            <span></span>
+                        </div>
+
+                        <div class="project-header__navigation-arrow project-header__navigation-arrow--next slider__navigation-arrow--next nav-arrow nav-arrow--next">
+                            <span></span>
+                        </div>
+                        <div class="project-header__pagination slider__pagination"></div>
+                    </div>
+                </div>
+                                    <div class="project-header__aside-wrapper">
+                        <div class="project-header__aside">
+                            <div class="project-header__aside-line"></div>
+                            <h3 class="project-header__aside-title title-third">Учреждение</h3>
+                            <p class="project-header__aside-text text">Муниципальное бюджетное учреждение здравоохранения Детская Городская Больница №2 города Ростова-на-Дону</p>
+                            <p class="project-header__aside-small-text text text--footernote">344022, г. Ростов-на-Дону, ул. Адыгейская, 12/191</p>
+                            <a href="" data-id="326" class="project-header__map-link link">
+                                <span class="project-header__map-icon"></span>
+                                <span class="project-header__map-link-text title-fourth">Показать на карте</span>
+                            </a>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+
+    <section class="project__main">
+        <div class="project__main-wrapper width-wrapper">
+            <div class="project__main-content">
+                <div class="project__post-date">
+                    <p class="text text--footernote">18 апреля — 19</p>
+                </div>
+                <div class="project__text-block">
+                    <p class="project__text text text--article">
+	«Я увидела такую кровать на практике в Санкт-Петербурге. Но главврач сказала мне тогда: «Мы не можем себе такое позволить», - делится Алевтина Геннадьевна Черных, зав. неврологического отделения Больницы №2 в Ростове—на—Дону. 
+</p>
+<p class="project__text text text--article">
+	В городе 2 млн жителей. И это единственная больница, где проводится комплексное лечение детей с заболеваниями Центральной нервной системы (ДЦП, травмы, аномалии в развитии). Здесь лежат детки с самого раннего возраста. При таких заболеваниях неивазивные способы лечения — самые эффективные. Но для этого им нужна была специальная лечебная кровать «Сатурн— 90». 
+</p>
+<p class="project__text text text--article">
+	Она предназначена для реабилитации детей с заболеваниями ЦНС. Создана по принципу сухой иммерсии: 250 кг микроскопических стеклянных шариков нагреваются и начинают вибрировать, создавая ощущение кипящей поверхности. Происходим мягкая стимуляция нервных окончаний, происходит расслабление мышц и восстанавливается деятельность центральной нервной системы. Помимо массажа ребенок получает ощущения как в утробе матери. Для детей важна именно такая терапия. 
+</p>
+
+</div>
+<div class="js-content-slider-wrapper"></div>
+<div class="project__text-block">
+
+<p class="project__text text text--article">
+	«Даже если ребенок не будет как все, ему все равно нужна помощь. Тем более в раннем возрасте, когда еще можно помочь. Кровать можно использовать даже для младенцев», — говорит Елена Сорокина, куратор проекта от АШАН Орбитальная.
+</p>
+<p class="project__text text text--article">
+	Благодаря фонду «Поколение АШАН» кровать «Сатурн—90» удалось приобрести в кратчайшие сроки, и теперь тысячи детей в год смогут пройти необходимую реабилитацию! 
+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project__numbers numbers">
+        <div class="numbers__mask numbers__mask--mobile">
+            <svg width="320px" height="690px" viewbox="0 0 320 690" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="MOB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="PROJECT-PAGE_mob" transform="translate(0.000000, -2262.000000)" fill="#F7F7F7">
+                        <path d="M23.0920768,2295.87961 C64.95802,2295.87961 170.612741,2295.87961 207.185534,2295.87961 C273.179324,2295.87961 266.379124,2262 313.885189,2262 C345.445917,2262 351.347551,2490.40535 331.590092,2947.21605 L331.590094,2947.21605 C331.474403,2949.89095 329.27216,2952 326.594762,2952 L-17.0000046,2952 C-19.7614259,2952 -22.0000001,2949.76142 -22.0000001,2947 C-22.0000001,2946.98727 -21.9999515,2946.97454 -21.9998542,2946.96181 C-19.0675454,2563.07203 -15.8138502,2363.06127 -12.2387689,2346.92952 C-4.69639457,2312.89625 7.080554,2295.87961 23.0920768,2295.87961 Z" id="Mask"></path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="numbers__mask numbers__mask--tablet">
+            <svg width="768px" height="484px" viewbox="0 0 768 484" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="MOB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="PROJECT-PAGE_tab" transform="translate(0.000000, -1820.000000)" fill="#F7F7F7">
+                        <path d="M-40.2674116,2189.12475 C-45.0166712,1999.24043 -11.5403206,1904.29826 60.1616403,1904.29826 C167.714582,1904.29826 439.139877,1904.29826 533.0948,1904.29826 C702.631795,1904.29826 685.16219,1817 807.204513,1817 C888.566062,1817 903.549592,1979.33333 852.155103,2304 L-50.0569749,2304 C-52.8183987,2304 -55.0569749,2301.76142 -55.0569749,2299 C-55.0569749,2298.77624 -55.0419546,2298.55274 -55.0120153,2298.33099 Z" id="Mask"></path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="numbers__mask numbers__mask--desktop">
+            <svg width="1440px" height="439px" viewbox="0 0 1440 439" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="PROJECT-PAGE" transform="translate(0.000000, -1578.000000)" fill="#F7F7F7">
+                        <path d="M-14.7205216,1826.07678 C27.5643196,1756.08568 108.821144,1721.09013 229.049952,1721.09013 C409.393163,1721.09013 864.51516,1721.09013 1022.05741,1721.09013 C1306.33458,1721.09013 1277.0418,1576 1481.6806,1576 C1618.10647,1576 1618.10647,1723 1481.6806,2017 L-35.0002251,2017 C-37.7616489,2017 -40.0002251,2014.76142 -40.0002251,2012 C-40.0002251,2011.77427 -39.9849395,2011.54881 -39.9544733,2011.32515 Z" id="Mask"></path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+        <div class="numbers__wrapper">
+                            <div class="numbers__content">
+                    <div class="numbers__content-wrapper">
+
+                        <ul class="numbers__list">
+                            <li class="numbers__item">
+                                <div class="numbers__icon">
+                                    <img src="/img/ic-numbers1.svg">
+                                </div>
+                                <div class="numbers__header title-third">Программа</div>
+                                <div class="numbers__text text">Оказание помощи детям и молодым людям, находящимся в трудной жизненной ситуации</div>
+                            </li>
+                            <li class="numbers__item">
+                                <div class="numbers__icon">
+                                    <img src="/img/ic-numbers2.svg">
+                                </div>
+                                <div class="numbers__header title-third">Кураторы проекта</div>
+                                <div class="numbers__text text">Благотворительный фонд "Поколение АШАН" и магазин АШАН Орбитальная</div>
+                            </li>
+                            <li class="numbers__item">
+                                <div class="numbers__icon">
+
+                                    <img src="/img/ic-numbers3.svg">
+                                </div>
+                                <div class="numbers__header title-third">Бюджет проекта</div>
+                                <div class="numbers__text text">2 190 000</div>
+                            </li>
+                            <li class="numbers__item">
+                                <div class="numbers__icon">
+                                    <img src="/img/ic-numbers4.svg">
+                                </div>
+                                <div class="numbers__header title-third">Охват проекта</div>
+                                <div class="numbers__text text">1000 детей</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    </div>
+
+    </section>
+
+    <!--    <section class="project__share share">-->
+    <!--        <div class="share__wrapper">-->
+    <!--            <div class="share__content">-->
+    <!--                <div class="share__text title-fourth">Поделиться:</div>-->
+    <!--                <ul class="share__social-list">-->
+    <!--                    <li class="share__social-item share__social-item--vk">-->
+    <!--                        <a href="">-->
+    <!---->
+    <!--                        </a>-->
+    <!--                    </li>-->
+    <!--                    <li class="share__social-item share__social-item--ok">-->
+    <!--                        <a href="">-->
+    <!---->
+    <!--                        </a>-->
+    <!--                    </li>-->
+    <!--                    <li class="share__social-item share__social-item--fb">-->
+    <!--                        <a href="">-->
+    <!---->
+    <!--                        </a>-->
+    <!--                    </li>-->
+    <!--                    <li class="share__social-item share__social-item--tw">-->
+    <!--                        <a href="">-->
+    <!---->
+    <!--                        </a>-->
+    <!--                    </li>-->
+    <!--                    <li class="share__social-item share__social-item--im">-->
+    <!--                        <a href="">-->
+    <!---->
+    <!--                        </a>-->
+    <!--                    </li>-->
+    <!--                </ul>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
+
+    <div class="no-display">
+        <div class="js-content-slider project__slider">
+            <div class="project__slider-container swiper-container">
+                <div id="lightgallery" class="project__slider-wrapper swiper-wrapper">
+                                            <a href="/upload/iblock/450/pokolenie_auchan___BwZiCyyFoYr___.jpg" class="project__slider-slide swiper-slide">
+                            <img class="project__slider-image project__slider-image--mobile" src="/upload/iblock/450/pokolenie_auchan___BwZiCyyFoYr___.jpg">
+                            <img class="project__slider-image project__slider-image--desktop" src="/upload/iblock/450/pokolenie_auchan___BwZiCyyFoYr___.jpg">
+                        </a>
+                                    </div>
+                <div class="project__slider-navigation nav-arrow nav-arrow--prev">
+                    <span></span>
+                </div>
+                <div class="project__slider-navigation nav-arrow nav-arrow--next">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/dist/js/lightgallery.min.js" integrity="sha256-eoTGOrFW1o5KcmlIfJxlpOs0sMeGTy0/0rh/fGZEgNM=" crossorigin="anonymous"></script>
+    <script src="/local/templates/main/js/lg-thumbnail.js"></script>
+
+    <script>
+        lightGallery(document.getElementById('lightgallery'), {
+            thumbnail: true,
+            animateThumb: true,
+            showThumbByDefault: true,
+            loop: false,
+            selector: '.swiper-slide',
+        });
+    </script>
+
+    <section class="programms__other-projects other-projects">
+        <div class="other-projects__title-container title">
+            <div class="title__head title-sub">Другие проекты</div>
+            <a href="/projects/" class="title__button button button--small button--white button--reverse">
+                <span class="button__text title-fourth">Все проекты</span>
+                <span class="button__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                        <path class="ml" fill="#008f4c" fill-rule="evenodd" d="M9 7.65a.64.64 0 0 1 .112-.36.674.674 0 0 1 .922-.18l6.67 4.349a.642.642 0 0 1 0 1.082l-6.67 4.35a.676.676 0 0 1-.369.109.658.658 0 0 1-.665-.65v-8.7z"></path>
+                    </svg>
+                </span>
+            </a>
+        </div>
+                <div class="other-projects__wrapper">
+    <div class="other-projects__content">
+        <div class="other-projects__list-container">
+            <div class="other-projects__scroller">
+                <ul class="other-projects__list">
+                                            <li class="other-projects__item">
+                            <a href="/projects/itogi-blagotvoritelnoy-aktsii-podari-rebenku-novyy-god/" class="other-projects__link">
+                                        <span class="other-projects__image-container">
+                                            <span class="other-projects__line other-projects__line--red"></span>
+                                            <span class="other-projects__image" style="background-image: url('../../upload/iblock/f83/30.12.2021 Благотворительный фонд компании АШАН подвел итоги акции Подари ребенку Новый год.jpeg')"></span>
+                                        </span>
+                                <span class="other-projects__signature">
+                                            <span class="other-projects__item-title title-third">Итоги благотворительной акции «Подари ребенку Новый год»</span>
+                                            <span class="other-projects__item-location text text--footernote">все города присутствия компании АШАН Ритейл Россия</span>
+                                        </span>
+                            </a>
+                        </li>
+                                            <li class="other-projects__item">
+                            <a href="/projects/aktovyy-zal-vsemu-golova/" class="other-projects__link">
+                                        <span class="other-projects__image-container">
+                                            <span class="other-projects__line other-projects__line--yellow"></span>
+                                            <span class="other-projects__image" style="background-image: url('../../upload/iblock/d60/_BPD5244.jpg')"></span>
+                                        </span>
+                                <span class="other-projects__signature">
+                                            <span class="other-projects__item-title title-third">Актовый зал всему голова!</span>
+                                            <span class="other-projects__item-location text text--footernote">Московская область</span>
+                                        </span>
+                            </a>
+                        </li>
+                                            <li class="other-projects__item">
+                            <a href="/projects/deti-protiv-narkotikov-ya-vybirayu-sport-/" class="other-projects__link">
+                                        <span class="other-projects__image-container">
+                                            <span class="other-projects__line other-projects__line--blue"></span>
+                                            <span class="other-projects__image" style="background-image: url('../../upload/iblock/f1b/20.jpg')"></span>
+                                        </span>
+                                <span class="other-projects__signature">
+                                            <span class="other-projects__item-title title-third">«Дети против наркотиков — я выбираю спорт!»</span>
+                                            <span class="other-projects__item-location text text--footernote">г. Электросталь</span>
+                                        </span>
+                            </a>
+                        </li>
+                                            <li class="other-projects__item">
+                            <a href="/projects/silnye-dukhom/" class="other-projects__link">
+                                        <span class="other-projects__image-container">
+                                            <span class="other-projects__line other-projects__line--blue"></span>
+                                            <span class="other-projects__image" style="background-image: url('../../upload/iblock/bc6/maxresdefault_live.jpg')"></span>
+                                        </span>
+                                <span class="other-projects__signature">
+                                            <span class="other-projects__item-title title-third">Сильные духом</span>
+                                            <span class="other-projects__item-location text text--footernote">г. Кинель</span>
+                                        </span>
+                            </a>
+                        </li>
+                                            <li class="other-projects__item">
+                            <a href="/projects/shokolad-stm/" class="other-projects__link">
+                                        <span class="other-projects__image-container">
+                                            <span class="other-projects__line other-projects__line--red"></span>
+                                            <span class="other-projects__image" style="background-image: url('../../upload/iblock/11a/unnamed.jpg')"></span>
+                                        </span>
+                                <span class="other-projects__signature">
+                                            <span class="other-projects__item-title title-third">Шоколад СТМ</span>
+                                            <span class="other-projects__item-location text text--footernote"></span>
+                                        </span>
+                            </a>
+                        </li>
+                                            <li class="other-projects__item">
+                            <a href="/projects/semeynaya-gostinaya/" class="other-projects__link">
+                                        <span class="other-projects__image-container">
+                                            <span class="other-projects__line other-projects__line--yellow"></span>
+                                            <span class="other-projects__image" style="background-image: url('../../upload/iblock/4dc/IMG_0569.JPG')"></span>
+                                        </span>
+                                <span class="other-projects__signature">
+                                            <span class="other-projects__item-title title-third">Семейная гостиная</span>
+                                            <span class="other-projects__item-location text text--footernote">с. Широкий Буерак,Саратовская область</span>
+                                        </span>
+                            </a>
+                        </li>
+                                            <li class="other-projects__item">
+                            <a href="/projects/mir-vokrug-nas-2019/" class="other-projects__link">
+                                        <span class="other-projects__image-container">
+                                            <span class="other-projects__line other-projects__line--red"></span>
+                                            <span class="other-projects__image" style="background-image: url('../../upload/iblock/563/IMG_4129.jpg')"></span>
+                                        </span>
+                                <span class="other-projects__signature">
+                                            <span class="other-projects__item-title title-third">Мир вокруг нас - 2019</span>
+                                            <span class="other-projects__item-location text text--footernote">Москва</span>
+                                        </span>
+                            </a>
+                        </li>
+                                            <li class="other-projects__item">
+                            <a href="/projects/nasha-uyutnaya-shkola/" class="other-projects__link">
+                                        <span class="other-projects__image-container">
+                                            <span class="other-projects__line other-projects__line--yellow"></span>
+                                            <span class="other-projects__image" style="background-image: url('../../upload/iblock/a3a/волонтер 1 (1).jpg')"></span>
+                                        </span>
+                                <span class="other-projects__signature">
+                                            <span class="other-projects__item-title title-third">Наша уютная школа</span>
+                                            <span class="other-projects__item-location text text--footernote">г. Владимир</span>
+                                        </span>
+                            </a>
+                        </li>
+                                    </ul>
+            </div>
+        </div>
+                    <div class="other-projects__button-holder">
+                <a href="" data-url="/projects/kolybel-zdorovya/" data-page="1" data-count="17" data-pagination="2" class="js-show-more other-projects__button button button--white-green button--ajax title-fourth">
+                    Показать ещё
+                </a>
+            </div>
+            </div>
+</div>    </section>
+</main>
+</div>
+
+<footer class="footer">
+    <div class="footer__wrapper width-wrapper">
+        <div class="footer__content">
+            <div class="footer__top-content">
+                <div class="footer__top-left">
+                    <div class="footer__top-left-block">
+                        <p class="footer__text text text--footer">Россия, г. Москва, 107140,</p>
+                        <p class="footer__text text text--footer">ул. Верхняя Красносельская, д. 3А</p>
+                    </div>
+                    <div class="footer__top-left-block">
+                        <p class="footer__text text">
+                            <a href="tel:84957212091" class="footer__link">+7 (495) 721 2091</a>
+                        </p>
+                        <p class="footer__text text">
+                            <a href="mailto:infopokolenie@gmail.com" class="footer__link">infopokolenie@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__top-center">
+                    <div class="footer__top-center-block">
+                        <p class="footer__text text text--footer">Некоммерческая организация Благотворительный фонд
+                            «Поколение АШАН»</p>
+                    </div>
+                    <div class="footer__top-center-block">
+                        <p class="footer__text text text--footer">ИНН 7708240080</p>
+                        <p class="footer__text text text--footer">ОГРН 1117799009349</p>
+                    </div>
+                </div>
+                <div class="footer__top-right">
+                    <form class="footer__search-form">
+                        <div class="footer__search-container">
+                            <label class="footer__search-label" for="footer-search"></label>
+                            <input id="footer-search" class="footer__search-input" placeholder="Поиск по сайту">
+                            <a href="" class="footer__search-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                                    <path fill="#FFF" fill-rule="nonzero" d="M20.529 20.529a1 1 0 0 1-1.414.005L14.86 16.31a6.818 6.818 0 1 1 1.42-1.409l4.244 4.214a1 1 0 0 1 .005 1.414zm-9.71-4.893a4.818 4.818 0 1 0 0-9.636 4.818 4.818 0 0 0 0 9.636z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </form>
+                    <div class="footer__social social">
+                        <ul class="social__list">
+                            <!--                            <li class="social__item social__item--vk">-->
+                            <!--                                <a href=""></a>-->
+                            <!--                            </li>-->
+                            <!--                            <li class="social__item social__item--ok">-->
+                            <!--                                <a href=""></a>-->
+                            <!--                            </li>-->
+                            <!--                            <li class="social__item social__item--yt">-->
+                            <!--                                <a href=""></a>-->
+                            <!--                            </li>-->
+                            <!--                            <li class="social__item social__item--fb">-->
+                            <!--                                <a href=""></a>-->
+                            <!--                            </li>-->
+                            <!--                            <li class="social__item social__item--tw">-->
+                            <!--                                <a href=""></a>-->
+                            <!--                            </li>-->
+<!--                            <li class="social__item social__item--im">-->
+<!--                                <a href="https://www.instagram.com/pokolenie_auchan/" target="_blank"></a>-->
+<!--                            </li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom-content">
+                <div class="footer__bottom-left">
+                    <a href="/" class="footer__copyright footer__text text">Поколение АШАН © 2022</a>
+                </div>
+                <div class="footer__bottom-center">
+                    <ul class="footer__payment-system">
+                        <li class="footer__payment-item footer__payment-item--visa">
+                            <a href=""></a>
+                        </li>
+
+                        <li class="footer__payment-item footer__payment-item--mastercard">
+                            <a href=""></a>
+                        </li>
+
+                        <li class="footer__payment-item footer__payment-item--mir">
+                            <a href=""></a>
+                        </li>
+                                                    <li class="footer__payment-item footer__payment-item--mastercard">
+                                <a style="background-image: url('../../local/templates/main/img/JCB_logo 3.svg')" href=""></a>
+                            </li>
+                        
+                    </ul>
+                </div>
+                <div class="footer__bottom-right">
+                    <div class="footer__map-link text">
+                        <a href="">Карта сайта</a>
+                    </div>
+                    <a href="http://peachdesign.ru/" class="footer__author text">
+                        <span class="footer__author-made">Сделано в</span>
+                        <span class="footer__author-logo">
+
+                        </span>
+                    </a>
+                    <div class="footer__political text">
+                        <a href="/ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ООО «АШАН»-АТАК.docx" download="">Политика
+                            конфиденциальности</a>
+                    </div>
+                    <div class="footer__political text">
+                        <a href="/Политика Конфиденциальности БФ Поколение АШАН.docx" download="">Политика НКО БФ
+                            «Поколение АШАН» в области обработки и защиты персональных данных</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__google">
+                <p class="text">
+                    Этот сайт защищен reCAPTCHA и применяются <a target="_blank" href="https://policies.google.com/privacy">Политика
+                        конфиденциальности</a> и <a target="_blank" href="https://policies.google.com/terms">Условия
+                        обслуживания Google</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- VK -->
+<script type="text/javascript">!function () {
+        var t = document.createElement("script");
+        t.type = "text/javascript", t.async = !0, t.src = "https://vk.com/js/api/openapi.js?162", t.onload = function () {
+            VK.Retargeting.Init("VK-RTRG-429050-bzXZw"), VK.Retargeting.Hit()
+        }, document.head.appendChild(t)
+    }();</script>
+<noscript><img src="https://vk.com/rtrg?p=VK-RTRG-429050-bzXZw" style="position:fixed; left:-999px;" alt=""></noscript>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(54299472, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/54299472" style="position:absolute; left:-9999px;" alt=""></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<script>
+    var footerSearch = document.querySelector('.footer__search-form');
+    var mainSearch = document.querySelector('.search');
+    var mainSearchForm = document.getElementById('js-search-form');
+    var mainSearchInput = document.getElementById('search');
+    var footerSearchIcon = document.querySelector('.footer__search-icon');
+    var mainSearchIcon = mainSearchForm.querySelector('.search__link-icon');
+
+    footerSearchIcon.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        var q = document.getElementById('footer-search').value;
+        mainSearch.classList.add('search--visible');
+        mainSearchInput.value = q;
+        mainSearchIcon.click();
+    });
+
+    footerSearch.addEventListener('submit', function (event) {
+        console.log('click');
+        event.preventDefault();
+
+        var q = document.getElementById('footer-search').value;
+        mainSearch.classList.add('search--visible');
+        mainSearchInput.value = q;
+        mainSearchIcon.click();
+
+    })
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LcMap0UAAAAAEf7X2qhfjm005T4M2Tet1bc40DD"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=88fd579d-8eac-43ae-a76d-2b2f706eccab&lang=ru_RU" type="text/javascript"></script>
+<script src="/local/templates/main/js/vendors.js"></script>
+<script src="/local/templates/main/js/main.js"></script>
+
+</body>
+</html>
+<!--e18635cd20e3c99253a9e0cf847f0a21-->
